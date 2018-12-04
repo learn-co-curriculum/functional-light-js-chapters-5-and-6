@@ -61,6 +61,7 @@
   ```
 
 - Sensible approaches to refactoring code with side effects to not hide the side effect as much and make the side effect call a pure function.
+
   ```javascript
   function addMaxNum(arr) {
     var maxNum = Math.max( ...arr );
@@ -88,7 +89,6 @@
 4. How do we test for referential transparency to see if a function is pure?
 5. How do we handle references set as a `const` variable type if the data type is an Object? (Object or Array)?
 6. How can we use the concept of safer functions in Ironboard (or any code)?
-
 
 
 ## Chapter 6
